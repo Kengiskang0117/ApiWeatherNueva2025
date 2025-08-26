@@ -1,0 +1,61 @@
+body {
+background: #95cbcd;  
+font-family: 'Times New Roman', Times, serif;
+margin: 0;
+ 
+}
+
+h1{
+    color: rgb(185, 9, 9);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 14px;
+}
+
+
+#ciudad {
+    padding: 7px;
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#obtenerclima {
+  background-color: rgba(6, 185, 42, 0.933);
+}
+
+#borrarclima {
+  background-color: rgb(227, 3, 47);
+}
+
+
+#resultado {
+    width: 150px;           
+  margin: 50px auto;       
+  text-align: center;     
+  padding: 20px;           
+  border: 1px solid #fc27274d;  
+  border-radius: 1px;     
+  background-color: #95cbcd; 
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+
+}
+
+
+ 
+

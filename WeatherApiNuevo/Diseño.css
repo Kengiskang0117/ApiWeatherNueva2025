@@ -6,21 +6,34 @@ margin: 0;
 }
 
 h1{
-    color: rgb(185, 9, 9);
-    text-align: center;
+    color: rgb(42, 141, 253);
     margin-top: 20px;
+    margin: 25px;
+    margin-bottom: -15px;
+}
+
+h5{
+    color: rgb(0, 0, 0);
+    margin-top: -15px;
+    margin-bottom: 20px;
+    margin: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
 }
 
 .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    gap: 14px;
-    border: 2px solid #d13737a1;
-    border-radius: 15px;
-    width: 275px;           
-  margin: 15px auto; 
+
+   width: 275px;        
+  margin: 25px auto;      
+  text-align: center;     
+  border: 2px solid #040b2c4d;  
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  padding: 27px;
+  border-radius: 15px;
+  background-color: #f1fdfd;
+  font-size: 1.2rem;
+  color: #0c32b1;
+  box-shadow:  0 7px rgba(13, 179, 201, 0.685);
 }
 
 
@@ -29,6 +42,7 @@ h1{
     text-align: center;
     font-size: 15px;
     width: 150px;
+    
 }
 
 button {
@@ -41,32 +55,44 @@ button {
 
 #obtenerclima {
   background-color: rgba(6, 185, 42, 0.933);
+   box-shadow: 0 0 15px rgba(40, 243, 209, 0.5);
 }
 
 #borrarclima {
   background-color: rgb(227, 3, 47);
+  box-shadow: 0 0 15px rgba(214, 73, 73, 0.5);
 }
 
 
 #resultado {
-  width: 150px;           
+  width: 250px;        
   margin: 50px auto;       
   text-align: center;     
-  padding: 20px;           
   border: 1px solid #fc27274d;  
-  border-radius: 5px;     
-  background-color: #dbeff0; 
   font-family: Georgia, 'Times New Roman', Times, serif; 
- 
-
-}
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #f1fdfd;
+  font-size: 1.2rem;
+  color: #5e2f2f;
+  box-shadow: 0 0 10px rgba(80, 25, 25, 0.349);
+} 
 
 p{
     text-align: center;
     font-size: 15px;
     color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
- 
+ .info-clima {
+  font-size: 1.2rem;
+  margin: 6px 0;
+  gap: 6px;
+  color: #0c0c0c;
+  background-color: #a7f5c573;
+  padding: 5px;
+  border-radius: 10px;
+}
 

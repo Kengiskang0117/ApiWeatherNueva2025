@@ -16,9 +16,9 @@ document.getElementById("obtenerclima").addEventListener("click", function() {
       console.log(data);
       document.getElementById("resultado").innerHTML = `
         <h1>${data.name}, ${data.sys.country}</h1>
-        <p> 🌡 Temperatura: ${data.main.temp} °C</p>
-        <p> ☁ Clima: ${data.weather[0].description}</p>
-        <p>💨 Viento: ${data.wind.speed} m/s</p>
+        <p class="info-clima"> 🌡️ Temperatura: ${data.main.temp} °C</p>
+        <p class="info-clima">🌤️ Clima: ${data.weather[0].description}</p>
+        <p class="info-clima">💨 Viento: ${data.wind.speed} m/s</p>
       `;
     })
     .catch(error => console.error("Error:", error));

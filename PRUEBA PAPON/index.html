@@ -10,10 +10,10 @@
 
     <nav>
         <button class="nav-button" onclick="accion()">MENU DEL RESTAURANTE</button>
-        <a href="https://github.com/Kengiskang0117?page=3&tab=repositories"   class="nav-enlace">MiGitHub</a>
-        <a href="https://www.twitch.tv/kenmake17" class="nav-enlace"  >Twitch</a>
-        <a href="https://www.youtube.com/@kenmake17"  class="nav-enlace"> Youtube</a>
-        <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=new" class="nav-enlace" >ElGmail</a>
+        <a href="https://github.com/Kengiskang0117?page=3&tab=repositories"   class="nav-enlace desaparece">MiGitHub</a>
+        <a href="https://www.twitch.tv/kenmake17" class="nav-enlace  desaparece "  >Twitch</a>
+        <a href="https://www.youtube.com/@kenmake17"  class="nav-enlace desaparece"> Youtube</a>
+        <a href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=new" class="nav-enlace desaparece " >ElGmail</a>
     </nav>
 
     <h1>Bienvenidos a los juegos del hambres del hambres</h1>
@@ -37,6 +37,16 @@
     
         <h2>si te pillo faking you, OKAY!!!</h2>
     </div>
+
+    <script>
+         function accion(){   // esta es una funcion
+            // console.log("Hola Mundo");
+            var ancla = document.getElementsByClassName('nav-enlace'); // esto selecciona todos los elementos con la clase nav-enlace
+            for(var i = 0; i < ancla.length; i++){ //esto es un bucle que recorre todos los elementos seleccionados
+                ancla[i].classList.toggle('desaparece'); // esto agrega o quita la clase desaparece a cada elemento     //toggle es para agregar o quitar cambiar entre dos estados
+            }
+         }
+    </script>
 
 </body>
 </html>
